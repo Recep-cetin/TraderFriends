@@ -1,0 +1,317 @@
+* {
+    margin: 0%;
+}
+
+.kapsultime {
+    position: fixed;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(34, 12, 182, 0.472);
+    z-index: 10;
+}
+
+.kapsultime form {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    padding: .1%;
+    height: 81%;
+    /*  background-color: aliceblue; */
+    justify-content: center;
+    align-items: center;
+    /*  border-bottom-left-radius: 3rem; */
+    font-size: x-large;
+    overflow: auto;
+}
+
+
+.kapsulindi {
+    /*   display: none; */
+    position: fixed;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(34, 12, 182, 0.472);
+    z-index: 10;
+}
+
+.kapsulindi form {
+    display: flex;
+    position: relative;
+    max-height: 60%;
+    min-height: 10%;
+    flex-direction: column;
+    padding: 2rem;
+    /*   background-color: aliceblue; */
+    justify-content: center;
+    align-items: center;
+    /*  border-bottom-left-radius: 3rem; */
+    font-size: x-large;
+    overflow: auto;
+}
+
+.kapsulsembol {
+    /* display: none; */
+    position: fixed;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(34, 12, 182, 0.472);
+    z-index: 10;
+}
+
+.kapsulsembol form {
+    display: flex;
+    position: relative;
+    max-height: 65%;
+    flex-direction: column;
+    padding: 2rem;
+    /*   background-color: aliceblue; */
+    justify-content: center;
+    align-items: center;
+    /*  border-bottom-left-radius: 3rem; */
+    font-size: x-large;
+    overflow: auto;
+}
+
+.sabit {
+    min-width: 40%;
+    max-width: 52%;
+    margin-left: 23.5%;
+    margin-top: 5%;
+    height: 70%;
+    background-color: aliceblue;
+}
+
+.scrol {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    padding: 2rem;
+    font-size: x-large;
+    max-height: 13%;
+    /* border-top-left-radius: 3rem; */
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.kapsulsembol input {
+    /*     font-size: x-large;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    min-width: 30%;
+    max-width: 80%;
+    box-shadow: 1px 1px 1px 1px blue;
+    margin-bottom: 30px; */
+    font-size: x-large;
+    min-width: 30%;
+    max-width: 80%;
+    box-shadow: 1px 1px 1px 1px rgb(56, 56, 60);
+    margin-bottom: 30px;
+
+}
+
+.kapsulindi input {
+    font-size: x-large;
+    min-width: 30%;
+    max-width: 80%;
+    box-shadow: 1px 1px 1px 1px rgb(56, 56, 60);
+    margin-bottom: 30px;
+
+}
+
+#ort {
+    margin-left: 10%;
+}
+
+.kapsulsembol a {
+    margin: 2%;
+}
+
+.kapsulindi a {
+    margin: 2%;
+}
+
+#btnkaydet {
+    background-color: rgb(18, 18, 123);
+    margin-top: 9%;
+    color: aliceblue;
+}
+
+#btnkaydet:hover {
+    background-color: blue;
+}
+
+#kapsulkapattime {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 1%;
+    margin: 1%;
+    background-color: rgb(34, 30, 30);
+    color: aliceblue;
+    border-radius: 20%;
+    z-index: 1;
+}
+
+#kapsulkapattime:hover {
+    background-color: rgba(34, 36, 41, 0.474);
+}
+
+#kapsulkapatindi {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 1%;
+    margin: 1%;
+    background-color: rgb(34, 30, 30);
+    color: aliceblue;
+    border-radius: 20%;
+}
+
+#kapsulkapatindi:hover {
+    background-color: brown;
+}
+
+#kapsulkapatsembol {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 1%;
+    margin: 1%;
+    background-color: rgb(34, 30, 30);
+    color: aliceblue;
+    border-radius: 20%;
+}
+
+#kapsulkapatsembol:hover {
+    background-color: rgba(34, 36, 41, 0.474);
+}
+
+.farklı {
+    background-color: rgb(42, 39, 39);
+    border-radius: 2rem;
+    color: floralwhite;
+    padding: 1rem;
+
+}
+
+.farklı:hover {
+    background-color: black;
+}
+
+#link {
+    margin-left: 25px;
+    margin-right: 25px;
+
+    font-size: x-large;
+}
+
+#link:hover {
+    background-color: rgba(28, 22, 22, 0.197);
+}
+
+button {
+    font-size: x-large;
+    border-radius: 3rem;
+    background-color: aliceblue;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button:hover {
+    background-color: rgba(34, 44, 226, 0.422);
+}
+
+.indiname {
+    position: inherit;
+    background-color: aquamarine;
+    margin: 0.5em;
+
+    border: solid red;
+    border-radius: 20%;
+    padding: 0.5%;
+
+}
+
+/* .india{
+    border: .5mm solid;
+    border-radius: 2rem;
+    padding-left: 9px;
+    padding-right: 9px;
+    border-bottom:solid 1px  rgb(41, 41, 46);
+} */
+.indidiv {
+    width: 90%;
+    margin: 9px;
+    padding: 2%;
+    border-bottom: solid 1px rgb(41, 41, 46);
+}
+
+@media only screen and (max-width:1200px) {
+    .sabit {
+        min-width: 70%;
+        max-width: 85%;
+        margin-left: 7.5%;
+        margin-top: 5%;
+        height: 92%;
+        background-color: aliceblue;
+    }
+
+    .kapsulindi form {
+        display: flex;
+        position: relative;
+        max-height: 70%;
+        min-height: 10%;
+        flex-direction: column;
+        padding: 2rem;
+        justify-content: center;
+        align-items: center;
+        font-size: small;
+        overflow: auto;
+    }
+
+    .kapsultime form {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: large;
+        overflow: auto;
+        max-height: 87%;
+    }
+
+    .kapsulsembol input {
+        font-size: x-large;
+        max-width: 100%;
+        min-width: 70%;
+        margin-bottom: 30px;
+
+    }
+
+    .kapsulindi input {
+        font-size: x-large;
+        max-width: 100%;
+        min-width: 70%;
+        margin-bottom: 30px;
+
+    }
+}
